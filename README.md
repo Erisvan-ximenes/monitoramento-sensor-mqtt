@@ -27,7 +27,7 @@ O sistema é dividido em microsserviços independentes que se comunicam através
 - **Alerta de Temperatura Alta:** `industrial/caldeira/cat/temperatura_alta`
 - **Alerta de Aumento Repentino:** `industrial/caldeira/cat/aumento_repentino`
 
-## 📋 Como Executar o Projeto
+## Como Executar o Projeto
 
 1. Instale as dependências:
    ```bash

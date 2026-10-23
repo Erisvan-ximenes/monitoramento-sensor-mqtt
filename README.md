@@ -51,4 +51,5 @@ Passo 4: Enviar mensagens via aplicativo móvel IoT MQTT Panel no celular para s
  Obs. Para validar a comunicação rode o comando abaixo para validar a comunicação ebtre o aplicativo movel e o painel de monitoramento(opcional).
  
  python -c "import paho.mqtt.client as c; cli = c.Client(c.CallbackAPIVersion.VERSION1, 'Sniffer'); cli.connect('broker.emqx.io', 1883); cli.subscribe('industrial/caldeira/sensor/#'); cli.on_message = lambda _,__,m: print(f'\n>>> RECEBIDO DADOS DO CELULAR: Tópico: [{m.topic}] | Payload: [{m.payload.decode()}]'); cli.loop_forever()"
-   
+
+   Mostrando a execução, link: https://drive.google.com/file/d/1c3W_id9J7d7KuzwBX2xUp8utLh4IzACu/view?usp=sharing
